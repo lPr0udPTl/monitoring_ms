@@ -132,7 +132,7 @@ with open('infrastructure.yml', 'w') as infra:
                 '    networks:\n'
                 '      - my-network\n'
                 '  grafana:\n'
-                '    image: grafana\n'
+                '    image: fabiopina151/grafana\n'
                 '    deploy:\n'
                 '      restart_policy:\n'
                 '        condition: on-failure\n')
